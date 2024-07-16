@@ -1,0 +1,79 @@
+[
+{
+  "model": "plants.plant",
+  "pk": 1,
+  "fields": {
+    "name": "Anatoli",
+    "species": "Dracaena fragrans",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Dracaena_deremensis_Warneckii_1zz.jpg",
+    "date": "2024-07-14",
+    "watering_frequency": 7
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 2,
+  "fields": {
+    "name": "Anastasia",
+    "species": "Peperomia obtusifolia",
+    "image_url": "",
+    "date": "2024-07-15",
+    "watering_frequency": 5
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 3,
+  "fields": {
+    "name": "Mirabel",
+    "species": "Pilea microphylla",
+    "image_url": "",
+    "date": "2024-07-15",
+    "watering_frequency": 5
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 4,
+  "fields": {
+    "name": "Geraldine",
+    "species": "Zamioculcas zamiifolia",
+    "image_url": "",
+    "date": "2024-07-15",
+    "watering_frequency": 10
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 5,
+  "fields": {
+    "name": "Lilibet",
+    "species": "Asparagus macowanii",
+    "image_url": "",
+    "date": "2024-07-15",
+    "watering_frequency": 5
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 6,
+  "fields": {
+    "name": "Melinoe",
+    "species": "Rhaphidophora tetrasperma",
+    "image_url": "",
+    "date": "2024-07-15",
+    "watering_frequency": 4
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 7,
+  "fields": {
+    "name": "Theophilus",
+    "species": "Rhaphidophora tetrasperma",
+    "image_url": "",
+    "date": "2024-07-15",
+    "watering_frequency": 3
+  }
+}
+]
