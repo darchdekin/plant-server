@@ -18,13 +18,13 @@ class PlantViewSet(viewsets.ReadOnlyModelViewSet):
 
 def get_schedule(request):
     #Return a watering schedule for the current month
-    current_month = datetime.now().month+1
-    current_year = datetime.now().year
     
-    #create an array with length = number of days in the month
+    #Get current month and year
+    current_month = datetime.now().month
+    current_year = datetime.now().year
     first_day, num_days = monthrange(current_year, current_month)
     
-    schedule = [[] for _ in range(num_days)]
+    schedule = [[] for _ in range(num_days)] #Create an array with length = number of days in the month
     
     #for every plant in the database:
     plants = Plant.objects.all()
