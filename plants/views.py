@@ -38,4 +38,4 @@ def get_schedule(request):
             i += freq
     
     #Respond with the generated watering schedule
-    return JsonResponse(data={"month": current_month, "year": current_year, "first_day": first_day, "schedule":schedule})
+    return JsonResponse(data={"month": current_month-1, "year": current_year, "first_day": (first_day+1) % 7, "schedule":schedule})
